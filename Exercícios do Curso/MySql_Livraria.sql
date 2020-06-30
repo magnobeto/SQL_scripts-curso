@@ -51,16 +51,3 @@ where estadoUFDaEditora = 'SP';
 
 select nomeDoAutor,nomeDoLivro,sexoDoAutor,numeroDePaginas,nomeDaEditora,valorDoLivro,anoDePublicacao from LIVROS
 where sexoDoAutor ='M' AND (estadoUFDaEditora = 'SP' OR estadoUFDaEditora = 'RJ');
-
-
-
-
-
-
-
-
-
-
-
-
-
