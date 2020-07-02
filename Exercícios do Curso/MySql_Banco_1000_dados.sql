@@ -18,7 +18,7 @@ desses dois setores. */
 
 select nome,departamento,email
 from funcionarios
-where departamento = 'lar' or departamento = 'filmes';
+where (departamento = 'lar' and sexo = 'Feminino') or (departamento = 'filmes' and sexo = 'Feminino');
 
 /* Traga os funcionarios do sexo masculino
 ou os funcionarios que trabalhem no setor jardim */
